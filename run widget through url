@@ -1,0 +1,9 @@
+ $.ajax({
+            url: '/api/widget/get/json/website_save_location_system',
+            type: 'GET',
+            dataType: 'json',
+            data: {
+                "name": 'website_save_location_system',
+                "response": saveLocationParams
+            }
+        });
